@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capture"
+    tools:context=".Team">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="Today's Team"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/teamImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/teamImg"
+        android:layout_alignLeft="@+id/teamImg"
+        android:layout_alignTop="@+id/teamImg"
+        android:layout_alignEnd="@+id/teamImg"
+        android:layout_alignRight="@+id/teamImg"
+        android:layout_alignBottom="@+id/teamImg"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginRight="131dp"
+        android:layout_marginBottom="288dp"
+        android:foregroundGravity="center" />
+
+</RelativeLayout>
